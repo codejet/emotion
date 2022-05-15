@@ -193,6 +193,9 @@ const props = {
   // used in amp html for indicating the fallback behavior
   // https://amp.dev/documentation/guides-and-tutorials/develop/style_and_layout/placeholders/
   fallback: true,
+  // An attribute to signal to the browser the relative priority of a resource (link, img and script)
+  // https://github.com/WICG/priority-hints/blob/main/EXPLAINER.md
+  fetchPriority: true,
   // https://html.spec.whatwg.org/multipage/interaction.html#inert
   inert: true,
   // itemProp, itemScope, itemType are for
